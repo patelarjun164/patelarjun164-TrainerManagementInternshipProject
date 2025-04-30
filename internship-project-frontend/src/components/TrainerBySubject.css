@@ -1,0 +1,72 @@
+.trainer-by-subject-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .trainer-by-subject-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .dropdown-container {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .dropdown-container select {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 220px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .trainer-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .trainer-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trainer-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .trainer-card p {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .subjects ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+  
+  .subjects li {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  
+  .subject-name {
+    font-weight: 600;
+    color: #007bff;
+  }
+  

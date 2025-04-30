@@ -1,0 +1,82 @@
+.get-trainer-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .get-trainer-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+  }
+  
+  .search-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-box input {
+    padding: 10px;
+    font-size: 16px;
+    width: 220px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-box button {
+    padding: 10px 18px;
+    font-size: 16px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-box button:hover {
+    background-color: #2980b9;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .trainer-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trainer-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .trainer-card p {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .subjects ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+  
+  .subjects li {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  
+  .subject-name {
+    font-weight: 600;
+    color: #007bff;
+  }
+  

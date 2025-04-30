@@ -1,0 +1,61 @@
+.add-trainer-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-trainer-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .trainer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .trainer-form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .subject-checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .checkbox-label {
+    font-size: 15px;
+  }
+  
+  .trainer-form button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .trainer-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,62 @@
+.trainer-list-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .trainer-list-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .trainer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .trainer-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .trainer-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .trainer-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .trainer-card p {
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .subjects ul {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0;
+  }
+  
+  .subjects li {
+    margin-bottom: 6px;
+    font-size: 15px;
+  }
+  
+  .subject-name {
+    font-weight: 600;
+    color: #007bff;
+  }
+  
+  .subject-desc {
+    color: #666;
+    font-size: 14px;
+  }
+  

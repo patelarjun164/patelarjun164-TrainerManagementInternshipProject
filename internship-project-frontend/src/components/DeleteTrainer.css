@@ -1,0 +1,69 @@
+.delete-trainer-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .delete-trainer-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .trainer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .trainer-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    position: relative;
+  }
+  
+  .trainer-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .trainer-card p {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .subjects ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 8px;
+  }
+  
+  .subjects li {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  
+  .subject-name {
+    font-weight: 600;
+    color: #007bff;
+  }
+  
+  .delete-btn {
+    margin-top: 15px;
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d9363e;
+  }
+  
